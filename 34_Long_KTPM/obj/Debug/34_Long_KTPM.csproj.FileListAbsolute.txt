@@ -1,0 +1,17 @@
+D:\unittest\34_Long_KTPM\bin\Debug\selenium-manager\linux\selenium-manager
+D:\unittest\34_Long_KTPM\bin\Debug\selenium-manager\macos\selenium-manager
+D:\unittest\34_Long_KTPM\bin\Debug\selenium-manager\windows\selenium-manager.exe
+D:\unittest\34_Long_KTPM\bin\Debug\34_Long_KTPM.exe.config
+D:\unittest\34_Long_KTPM\bin\Debug\34_Long_KTPM.exe
+D:\unittest\34_Long_KTPM\bin\Debug\34_Long_KTPM.pdb
+D:\unittest\34_Long_KTPM\bin\Debug\Newtonsoft.Json.dll
+D:\unittest\34_Long_KTPM\bin\Debug\WebDriver.dll
+D:\unittest\34_Long_KTPM\bin\Debug\Newtonsoft.Json.xml
+D:\unittest\34_Long_KTPM\bin\Debug\WebDriver.xml
+D:\unittest\34_Long_KTPM\obj\Debug\34_Long_KTPM.csproj.AssemblyReference.cache
+D:\unittest\34_Long_KTPM\obj\Debug\_34_Long_KTPM.Properties.Resources.resources
+D:\unittest\34_Long_KTPM\obj\Debug\34_Long_KTPM.csproj.GenerateResource.cache
+D:\unittest\34_Long_KTPM\obj\Debug\34_Long_KTPM.csproj.CoreCompileInputs.cache
+D:\unittest\34_Long_KTPM\obj\Debug\34_Long_KTPM.csproj.CopyComplete
+D:\unittest\34_Long_KTPM\obj\Debug\34_Long_KTPM.exe
+D:\unittest\34_Long_KTPM\obj\Debug\34_Long_KTPM.pdb

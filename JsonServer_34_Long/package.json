@@ -1,0 +1,12 @@
+{
+  "name": "jsonserver_34_long",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"start": "json-server --watch data_Long_34.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "34_long",
+  "license": "ISC"
+}
