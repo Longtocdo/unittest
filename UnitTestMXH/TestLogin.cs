@@ -9,16 +9,17 @@ namespace UnitTestMXH
 {
     // Đánh dấu lớp TestLogin là một lớp chứa các phương thức kiểm tra đăng nhập
     //[Ignore] // Bỏ qua lớp này khi chạy các bài kiểm tra
+    [Ignore]
     [TestClass]
     public class TestLogin
     {
         // Phương thức kiểm tra đăng nhập thành công
         [TestMethod]
-        public void LoginSuccess()
+        public void LoginSuccess_Long_34()
         {
             // Tên người dùng và mật khẩu
-            string name = "longtocdo03";
-            string pass = "prolaanh00";
+            string name_long_34 = "longtocdo03";
+            string pass_long_34 = "prolaanh00";
 
             // Khởi tạo driver Chrome
             ChromeDriverService chrome = ChromeDriverService.CreateDefaultService();
@@ -29,8 +30,8 @@ namespace UnitTestMXH
             driver.Navigate().GoToUrl("https://www.instagram.com/");
 
             // Nhập tên người dùng và mật khẩu, sau đó đăng nhập
-            driver.FindElement(By.CssSelector("input[type='text']")).SendKeys(name);
-            driver.FindElement(By.CssSelector("input[type='password']")).SendKeys(pass);
+            driver.FindElement(By.CssSelector("input[type='text']")).SendKeys(name_long_34);
+            driver.FindElement(By.CssSelector("input[type='password']")).SendKeys(pass_long_34);
             driver.FindElement(By.CssSelector("button._acan._acap._acas._aj1-._ap30")).Click();
 
             // Kiểm tra URL hiện tại
@@ -38,16 +39,17 @@ namespace UnitTestMXH
         }
         public TestContext TestContext { get; set; }
 
+
         // Phương thức kiểm tra đăng nhập với mật khẩu sai
         [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV",
             @"D:\unittest\UnitTestMXH\DataLoginFail.csv", "DataLoginFail#csv",
             DataAccessMethod.Sequential)]
         [TestMethod]
-        public void LoginFailure()
+        public void LoginFailure_Long_34_WrongUsername()
         {
             // Đọc dữ liệu đầu vào từ file CSV
-            string name = TestContext.DataRow[0].ToString();
-            string pass = TestContext.DataRow[1].ToString();
+            string name_long_34 = TestContext.DataRow[0].ToString();
+            string pass_long_34 = TestContext.DataRow[1].ToString();
 
             // Khởi tạo driver Chrome
             ChromeDriverService chrome = ChromeDriverService.CreateDefaultService();
@@ -58,8 +60,8 @@ namespace UnitTestMXH
             driver.Navigate().GoToUrl("https://www.instagram.com/");
 
             // Nhập tên người dùng và mật khẩu, sau đó đăng nhập
-            driver.FindElement(By.CssSelector("input[type='text']")).SendKeys(name);
-            driver.FindElement(By.CssSelector("input[type='password']")).SendKeys(pass);
+            driver.FindElement(By.CssSelector("input[type='text']")).SendKeys(name_long_34);
+            driver.FindElement(By.CssSelector("input[type='password']")).SendKeys(pass_long_34);
             driver.FindElement(By.CssSelector("button._acan._acap._acas._aj1-._ap30")).Click();
 
             // Chờ hiển thị thông báo
@@ -81,11 +83,11 @@ namespace UnitTestMXH
            @"D:\unittest\UnitTestMXH\LoginWrongPass.csv", "LoginWrongPass#csv",
            DataAccessMethod.Sequential)]
         [TestMethod]
-        public void LoginWrongPass()
+        public void LoginWrongPass_Long_34()
         {
             // Đọc dữ liệu đầu vào từ file CSV
-            string name = TestContext.DataRow[0].ToString();
-            string pass = TestContext.DataRow[1].ToString();
+            string name_long_34 = TestContext.DataRow[0].ToString();
+            string pass_long_34 = TestContext.DataRow[1].ToString();
 
             // Khởi tạo driver Chrome
             ChromeDriverService chrome = ChromeDriverService.CreateDefaultService();
@@ -96,8 +98,8 @@ namespace UnitTestMXH
             driver.Navigate().GoToUrl("https://www.instagram.com/");
 
             // Nhập tên người dùng và mật khẩu, sau đó đăng nhập
-            driver.FindElement(By.CssSelector("input[type='text']")).SendKeys(name);
-            driver.FindElement(By.CssSelector("input[type='password']")).SendKeys(pass);
+            driver.FindElement(By.CssSelector("input[type='text']")).SendKeys(name_long_34);
+            driver.FindElement(By.CssSelector("input[type='password']")).SendKeys(pass_long_34);
             driver.FindElement(By.CssSelector("button._acan._acap._acas._aj1-._ap30")).Click();
 
             // Chờ hiển thị thông báo

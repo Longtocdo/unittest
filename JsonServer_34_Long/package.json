@@ -10,3 +10,18 @@
   "author": "34_long",
   "license": "ISC"
 }
+tittle
+content
+resident{
+user_infor
+apartment}
+questions
+{
+reservation_name
+vehicle_number
+vehicle
+}
+//Test cacse 1 check status code
+pm.test("TC1_Long_34_have_status", function () {
+    pm.response.to.have.status(200);
+});

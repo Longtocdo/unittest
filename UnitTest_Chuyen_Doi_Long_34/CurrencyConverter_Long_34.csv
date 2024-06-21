@@ -1,0 +1,5 @@
+﻿Amount,FromCurrency,ToCurrency,ExpectedResult
+100,USD,EUR,85
+100,USD,VND,2300000
+85,EUR,USD,100
+2300000,VND,USD,100

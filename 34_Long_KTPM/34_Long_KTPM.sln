@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34_Long_KTPM", "34_Long_KTP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestMXH", "..\UnitTestMXH\UnitTestMXH.csproj", "{8B87C323-AB85-4C21-A56B-EDEAB7B13E8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit_Long_34_Chuyen_Doi_Tien", "..\Unit_Long_34_Chuyen_Doi_Tien\Unit_Long_34_Chuyen_Doi_Tien.csproj", "{29CE841B-3167-4D1E-8DF8-866D954B9DD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest_Chuyen_Doi_Long_34", "..\UnitTest_Chuyen_Doi_Long_34\UnitTest_Chuyen_Doi_Long_34.csproj", "{2AE17C05-5985-4615-8B8E-5D1B35821307}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{8B87C323-AB85-4C21-A56B-EDEAB7B13E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B87C323-AB85-4C21-A56B-EDEAB7B13E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B87C323-AB85-4C21-A56B-EDEAB7B13E8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29CE841B-3167-4D1E-8DF8-866D954B9DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29CE841B-3167-4D1E-8DF8-866D954B9DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29CE841B-3167-4D1E-8DF8-866D954B9DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29CE841B-3167-4D1E-8DF8-866D954B9DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AE17C05-5985-4615-8B8E-5D1B35821307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AE17C05-5985-4615-8B8E-5D1B35821307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AE17C05-5985-4615-8B8E-5D1B35821307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AE17C05-5985-4615-8B8E-5D1B35821307}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
